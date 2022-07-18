@@ -20,7 +20,7 @@ Using vulnerabilities in Intel TXE we had activated undocumented debugging mode 
 
 4. Where can I find more information about it?
 
-See our talks [Chip Red Pill: How We Achived to Execute Arbitrary Microcode Inside Inttel Atom CPUs](https://www.youtube.com/watch?v=V1nJeV0Uq0M&ab_channel=OffensiveCon) from OffensiveCon22.
+See our talks [Chip Red Pill: How We Achived to Execute Arbitrary Microcode Inside Intel Atom CPUs](https://www.youtube.com/watch?v=V1nJeV0Uq0M&ab_channel=OffensiveCon) from OffensiveCon22.
 
 
 # Python
