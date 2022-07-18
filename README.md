@@ -12,7 +12,7 @@ No, you can't. Only decryption is supported, because microcode has an RSA signat
 
 2. What kind CPUs are supported?
 
-Microcode format depends from CPU generation. We've extracted keys for Intel Gemini Lake (Goldmont Plus microarchitecture) and Intel Apolo Lake (Goldmont microarchitecture) generation. See [List of Supported CPUs](#list-of-supported-cpus)
+A microcode update decryption key depends from CPU generation. We've extracted keys for Intel Gemini Lake (Goldmont Plus microarchitecture) and Intel Apolo Lake (Goldmont microarchitecture) generation. See [List of Supported CPUs](#list-of-supported-cpus)
 
 3. How you had extracted the keys?
 
