@@ -24,7 +24,7 @@ See our talks [Chip Red Pill: How We Achived to Execute Arbitrary Microcode Insi
 
 
 # Python
-All our scripts are written on Python. We recommend using Python 3. The scripts require pycryptodome packet. To install pycryptodome, run the following command:
+All our scripts are written in Python. We recommend using Python 3. The scripts require pycryptodome packet. To install pycryptodome, run the following command:
 
 ```
 pip3 install pycryptodome
