@@ -1,6 +1,6 @@
 # **Disclaimer**
 
-**All information is provided for educational purposes only. Follow these instructions at your own risk. Neither the authors nor their employer are responsible for any direct or consequential damage or loss arising from any person or organization acting or failing to act on the basis of information contained in this page.**
+**All information is provided for educational purposes only. Follow these instructions at your own risk. Neither the authors nor their employers are responsible for any direct or consequential damage or loss arising from any person or organization acting or failing to act based on information contained on this page.**
 
 # Description
 At the beginning of 2020, we discovered the Red Unlock technique that allows extracting [Intel Atom Microcode](https://en.wikipedia.org/wiki/Intel_Microcode). We were able to research the internal structure of the microcode and then x86 instruction implementation. Also, we recovered a format of microcode updates, algorithm and the encryption key used to protect the microcode (see [RC4](https://en.wikipedia.org/wiki/RC4)). 
@@ -8,15 +8,15 @@ At the beginning of 2020, we discovered the Red Unlock technique that allows ext
 # FAQ
 1. Can I make a custom microcode update?
 
-No, you can't. Only decryption is supported, because microcode has an RSA signature for integrity protection. 
+No, you can't. Only decryption is supported because microcode has an RSA signature for integrity protection. 
 
 2. What kind CPUs are supported?
 
-A microcode update decryption key depends from CPU generation. We've extracted keys for Intel Gemini Lake (Goldmont Plus microarchitecture) and Intel Apolo Lake (Goldmont microarchitecture) generation. See [List of Supported CPUs](#list-of-supported-cpus)
+A microcode update decryption key depends on CPU generation. We've extracted keys for the generation of Intel Gemini Lake (Goldmont Plus microarchitecture) and Intel Apolo Lake (Goldmont microarchitecture). See [List of Supported CPUs](#list-of-supported-cpus)
 
 3. How you had extracted the keys?
 
-Using vulnerabilities in Intel TXE we had activated undocumented debugging mode called red unlock and extracted dumps of microcode directly from the CPU. We found the keys and algorithm inside.
+Using vulnerabilities in Intel TXE, we had activated an undocumented debugging mode called red unlock and extracted dumps of microcode directly from the CPU. We found the keys and algorithm inside.
 
 4. Where can I find more information about it?
 
